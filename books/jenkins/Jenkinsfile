@@ -81,7 +81,8 @@ pipeline {
                     }
                 }
             }
-        }
+	}
+
 
         stage('Wait for deployment in DEV env') {
             steps {
